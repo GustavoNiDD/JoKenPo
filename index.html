@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 8</title>
+    <script src="css/comandos.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head> 
+
+<body>
+    <div class="players">
+        <div class="player1">
+            <h1 id="vitoriaPlay1">Player 1 - Vitórias: 0</h1>
+            <h2 style="text-align: center;"><u>Teclas</u></h2>
+            <hr>
+            <h2 style="text-align: center; font-size: 20px;">PEDRA = A</h2> <img src="/img/pedra.png" alt=""
+                style="width: 50px; display: block; margin: auto;">
+            <hr>
+            <h2 style="text-align: center; font-size: 20px;">PAPEL = S</h2> <img src="/img/papel.png" alt=""
+                style="width: 50px; display: block; margin: auto;">
+            <hr>
+            <h2 style="text-align: center; font-size: 20px;">TESOURA = D</h2> <img src="/img/tesoura.png" alt=""
+                style="width: 50px; display: block; margin: auto;">
+            <hr>
+            <div id="imagemP1"></div>
+        </div>
+
+        <div
+            style="background-color: red; width: 200px; text-align: center; border-radius: 5%; border: 2px solid black; color: white;">
+            <p id="nPartidas">Partidas: 0</p>
+            <p id="nEmpates">Empates: 0</p>
+            <button onclick="reiniciar()">Reiniciar</button>
+            <p>espaço/space = reiniciar jogo</p>
+            <hr>
+            <p>VENCEDOR</p>
+            <hr>
+            <p id="vencedor" style="color: yellow;"></p>
+        </div>
+
+        <div class="player2">
+            <h1 id="vitoriaPlay2">Player 2 - Vitórias: 0</h1>
+            <h2 style="text-align: center;"><u>Teclas</u></h2>
+            <hr>
+            <h2 style="text-align: center; font-size: 20px;">PEDRA = J</h2> <img src="/img/pedra.png" alt=""
+                style="width: 50px; display: block; margin: auto;">
+            <hr>
+            <h2 style="text-align: center; font-size: 20px;">PAPEL = K</h2> <img src="/img/papel.png" alt=""
+                style="width: 50px; display: block; margin: auto;">
+            <hr>
+            <h2 style="text-align: center; font-size: 20px;">TESOURA = L</h2> <img src="/img/tesoura.png" alt=""
+                style="width: 50px; display: block; margin: auto;">
+            <hr>
+
+            <div id="imagemP2"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

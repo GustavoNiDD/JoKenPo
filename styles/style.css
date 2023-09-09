@@ -1,0 +1,48 @@
+.players {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: auto;
+}
+
+.regras {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.player1 {
+    background-color: rgb(98, 146, 98);
+    border-radius: 0% 0% 10% 10%;
+    border: 2px solid black;
+}
+
+.player1 h1 {
+    text-align: center;
+    background-color: rgb(81, 235, 94);
+}
+
+.player2 {
+    background-color: rgb(102, 102, 160);
+    border-radius: 0% 0% 10% 10%;
+    border: 2px solid black;
+}
+
+.player2 h1 {
+    text-align: center;
+    background-color: rgb(60, 48, 167);
+}
+
+#imagemP1,
+#imagemP2 {
+    display: flex;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    background-position: center;
+}
